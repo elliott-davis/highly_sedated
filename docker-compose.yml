@@ -1,0 +1,19 @@
+
+version: "3.7"
+services:
+  build:
+    build:
+      target: build
+      context: .
+  foo:
+    build:
+      target: foo
+      context: .
+  bar:
+    build:
+      target: bar
+      context: .
+  baz:
+    build:
+      target: baz
+      context: .
